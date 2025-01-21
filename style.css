@@ -1,0 +1,324 @@
+
+    body{
+        background-color: #EEEEEE;
+    }
+    
+    .containernavbar{
+        background-color: #232830;
+    }
+    
+    .logo{
+        height: 50px;
+    }
+    
+    .containerhero{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+    }
+    
+    .image{
+        grid-column-start: 4;
+        grid-column-end:-1 ;
+        grid-row-start: 1;
+        grid-row-end:3 ;
+    }
+    
+    .source-sans-3{
+        font-family: "Source Sans 3", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+      }
+    
+      .oswald {
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+      }
+    
+      .title{
+    
+        font-size: 150px;
+        font-weight: bolder;
+      }
+    
+      .herotext{
+        grid-column-start: 1;
+        grid-column-end:3 ;
+        grid-row-start: 1;
+        grid-row-end:3 ;
+        padding-top: 20px;
+        align-self: center;
+    }
+    
+    .herobutton{
+    
+        border: none;
+        border-radius: 10px;
+        background-color: #F8D579;
+        color: black;
+        font-size: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .heroparagraph{
+        font-size: 20px;
+    }
+    
+    .skillcontainer{
+      height: 800px;
+      width: 100%;
+      background-color: #3A3E45;
+      margin-top: 30px;
+    
+    }
+    
+    .skillcontainer{
+        display: grid;
+        grid-template-columns: 39px 38px 19px 22px 71px 19px 21px 63px 17px 89px 52px 35px 201px 94px 62px 62px 81px 42px 47px 23px 19px;
+        grid-template-rows: 31px 26px 26px 29px 112px 62px 16px 24px 20px 19px 102px 18px 18px 32px 26px 19px 40px 83px 47px 50px;
+    
+    }
+    
+    .heading{
+        color: white;
+        grid-column: 16 / -1 ;
+        grid-row: 2;
+        margin: none;
+        padding: none;
+    }
+    
+    .yellow1{
+        background-color: #F8D579;
+        width: 350px;
+        height: 290px;
+        grid-row: 2;
+        grid-column:3 ;
+    
+    }
+    
+    .mondrianpic{
+    
+        grid-row: 3;
+        grid-column: 4;
+        
+    }
+    
+    .mondriantext{
+    
+        grid-row: 6;
+        grid-column: 4 / 11;
+        font-size: 30px;
+        font-family: "Source Sans 3", serif;
+    }
+    
+    .colorpic{
+    
+        grid-row: 5;
+        grid-column: 16 ;
+    }
+    
+    .colortext{
+    
+        grid-row: 8;
+        grid-column: 16 / -1 ;
+        color: #F8D579;
+        font-family: "Source Sans 3", serif;
+        font-size: 30px;
+    }
+    
+    .solartext{
+    
+        grid-row: 9;
+        grid-column: 12 / -1 ;
+        color: #F8D579;
+        font-family: "Source Sans 3", serif;
+        font-size: 30px;
+    }
+    
+    .solarpic{
+        grid-row: 11;
+        grid-column: 12 ;
+        z-index: 1;
+    
+    }
+    
+    .yellow2{
+    
+        background-color: #F8D579;
+        height: 380px;
+        width: 75px;
+        grid-row:11;
+        grid-column: 8;
+    
+    }
+    
+    .yellow3{
+       
+        background-color: #F8D579;
+        height: 180px;
+        width: 505px;
+        grid-row:14;
+        grid-column: 13;
+        
+    }
+    
+    .businessicon{
+        grid-row: 15;
+        grid-column: 17 ;
+        z-index: 1;
+    }
+    
+    .businesstext{
+    
+        grid-row: 18;
+        grid-column: 15 / -1 ;
+        font-size: 30px;
+    }
+    
+    .designtext{
+        font-family: "Source Sans 3", serif;
+        color: #F8D579;
+        font-size: 30px;
+        grid-row: 12;
+        grid-column: 4;
+    
+    }
+    
+    .adobe{
+        grid-row: 15;
+        grid-column: 3 ;
+    }
+    
+    .code{
+        grid-row: 19;
+        grid-column: 13 ;
+    }
+    
+    .webdevtext{
+        grid-row: 20;
+        grid-column: 14 / -1 ;
+        color: #F8D579;
+        font-family: "Source Sans 3", serif;
+        font-size: 30px;
+    }
+
+
+
+
+.contact-info {
+display: inline-block;
+width: 100%;
+text-align: center;
+margin-bottom: 10px;
+}
+.contact-info-icon {
+margin-bottom: 15px;
+}
+.contact-info-item {
+background: #071c34;
+padding: 30px 0px;
+}
+.contact-page-sec .contact-page-form h2 {
+color: #071c34;
+text-transform: capitalize;
+font-size: 22px;
+font-weight: 700;
+}
+.contact-page-form .col-md-6.col-sm-6.col-xs-12 {
+padding-left: 0;
+}  
+.contact-page-form.contact-form input {
+margin-bottom: 5px;
+}  
+.contact-page-form.contact-form textarea {
+height: 110px;
+}
+.contact-page-form.contact-form input[type="submit"] {
+background: #071c34;
+width: 150px;
+border-color: #071c34;
+}
+.contact-info-icon i {
+font-size: 48px;
+color: #fda40b;
+}
+.contact-info-text p{
+    margin-bottom:0px;
+}
+
+
+.contact-info-text h2 {
+color: #fff;
+font-size: 22px;
+text-transform: capitalize;
+font-weight: 600;
+margin-bottom: 10px;
+}
+.contact-info-text span {
+color: #999999;
+font-size: 16px;
+font-weight: normal ;
+display: inline-block;
+width: 100%;
+}
+
+.contact-page-form input {
+background: #f9f9f9 none repeat scroll 0 0;
+border: 1px solid #f9f9f9;
+margin-bottom: 20px;
+padding: 12px 16px;
+width: 100%;
+border-radius: 4px;
+}
+
+.contact-page-form .message-input {
+display: inline-block;
+width: 100%;
+padding-left: 0;
+}
+.single-input-field textarea {
+background: #f9f9f9 none repeat scroll 0 0;
+border: 1px solid #f9f9f9;
+width: 100%;
+height: 120px;
+padding: 12px 16px;
+border-radius: 4px;
+}
+.single-input-fieldsbtn input[type="submit"] {
+background: #fda40b none repeat scroll 0 0;
+color: #fff;
+display: inline-block;
+font-weight: 600;
+padding: 10px 0;
+text-transform: capitalize;
+width: 150px;
+margin-top: 20px;
+font-size: 16px;
+}
+.single-input-fieldsbtn input[type="submit"]:hover{background:#071c34;transition: all 0.4s ease-in-out 0s;border-color:#071c34}
+.single-input-field  h4 {
+color: #464646;
+text-transform: capitalize;
+font-size: 14px;
+}
+.contact-page-form {
+display: inline-block;
+width: 100%;
+margin-top: 30px;
+}
+
+.contact-page-map {
+margin-top: 36px;
+}
+.contact-page-form form {
+padding: 20px 15px 0;
+}
+
+
+
+
+
